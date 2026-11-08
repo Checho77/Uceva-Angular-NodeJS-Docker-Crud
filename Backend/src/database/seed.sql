@@ -54,3 +54,32 @@ INSERT INTO courses (
 ('Desarrollo de Aplicaciones Móviles', 'Fundamentos y desarrollo de aplicaciones para dispositivos móviles.', 3, 7, TRUE),
 
 ('Inteligencia Artificial', 'Fundamentos de inteligencia artificial, aprendizaje automático y algoritmos inteligentes.', 4, 8, TRUE);
+
+
+INSERT INTO teachers (
+    name,
+    email,
+    phone,
+    specialty,
+    hire_date,
+    status
+) VALUES
+('Carlos Mendoza', 'carlos.mendoza@uceva.edu.co', '3151112201', 'Ingeniería de Software', '2015-02-10', TRUE),
+
+('Luisa Fernanda Ortiz', 'luisa.ortiz@uceva.edu.co', '3151112202', 'Bases de Datos', '2016-08-01', TRUE),
+
+('Jorge Alberto Cardona', 'jorge.cardona@uceva.edu.co', '3151112203', 'Redes de Computadores', '2012-01-15', TRUE),
+
+('Marcela Restrepo', 'marcela.restrepo@uceva.edu.co', '3151112204', 'Matemáticas', '2018-02-05', TRUE),
+
+('Andrés Felipe Gil', 'andres.gil@uceva.edu.co', '3151112205', 'Programación Web', '2019-07-20', TRUE),
+
+('Paola Andrea Salazar', 'paola.salazar@uceva.edu.co', '3151112206', 'Inteligencia Artificial', '2020-01-27', TRUE),
+
+('Ricardo Arango', 'ricardo.arango@uceva.edu.co', '3151112207', 'Sistemas Operativos', '2014-09-08', TRUE),
+
+('Diana Carolina Vélez', 'diana.velez@uceva.edu.co', '3151112208', 'Arquitectura de Software', '2017-03-13', TRUE),
+
+('Hernán Darío Pineda', 'hernan.pineda@uceva.edu.co', '3151112209', 'Desarrollo Móvil', '2021-06-01', TRUE),
+
+('Natalia Quintero', 'natalia.quintero@uceva.edu.co', '3151112210', 'Ingeniería de Requisitos', '2022-02-14', FALSE);
