@@ -28,3 +28,14 @@ CREATE TABLE IF NOT EXISTS teachers (
     hire_date DATE NOT NULL,
     status BOOLEAN DEFAULT TRUE
 );
+
+
+
+CREATE TABLE IF NOT EXISTS classrooms (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100) UNIQUE NOT NULL,
+    building VARCHAR(100) NOT NULL,
+    capacity INTEGER NOT NULL CHECK (capacity BETWEEN 1 AND 200),
+    classroom_type VARCHAR(50) NOT NULL,
+    status BOOLEAN DEFAULT TRUE
+);

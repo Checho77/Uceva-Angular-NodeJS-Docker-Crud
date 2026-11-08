@@ -83,3 +83,32 @@ INSERT INTO teachers (
 ('Hernán Darío Pineda', 'hernan.pineda@uceva.edu.co', '3151112209', 'Desarrollo Móvil', '2021-06-01', TRUE),
 
 ('Natalia Quintero', 'natalia.quintero@uceva.edu.co', '3151112210', 'Ingeniería de Requisitos', '2022-02-14', FALSE);
+
+
+
+INSERT INTO classrooms (
+    name,
+    building,
+    capacity,
+    classroom_type,
+    status
+) VALUES
+('Sala de Sistemas 1', 'Edificio de Ingeniería', 30, 'Laboratorio', TRUE),
+
+('Sala de Sistemas 2', 'Edificio de Ingeniería', 30, 'Laboratorio', TRUE),
+
+('Aula 101', 'Edificio Central', 40, 'Aula', TRUE),
+
+('Aula 102', 'Edificio Central', 40, 'Aula', TRUE),
+
+('Aula 201', 'Edificio Central', 35, 'Aula', TRUE),
+
+('Auditorio Principal', 'Edificio Administrativo', 150, 'Auditorio', TRUE),
+
+('Laboratorio de Redes', 'Edificio de Ingeniería', 25, 'Laboratorio', TRUE),
+
+('Sala de Videoconferencias', 'Biblioteca', 20, 'Sala de reuniones', TRUE),
+
+('Aula 301', 'Edificio Central', 45, 'Aula', TRUE),
+
+('Laboratorio de Electrónica', 'Edificio de Ingeniería', 20, 'Laboratorio', FALSE);
