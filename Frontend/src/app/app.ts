@@ -1,3 +1,4 @@
+
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Navbar } from './modules/shared/components/navbar/navbar';
@@ -13,5 +14,6 @@ export class App {
     { title: 'Students', url: '/students' },
     { title: 'Teachers', url: '/teachers' },
     { title: 'Classrooms', url: '/classrooms' },
+    { title: 'Courses', url: '/courses' },
   ];
 }
